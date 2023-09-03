@@ -5,4 +5,4 @@ class Asignatura:
         self._salon = salon
 
     def __str__(self):
-        return f"Nombre: {self.nombre}, Salon:{self.salon}"    
+        return self._nombre+ "," +self._salon    
